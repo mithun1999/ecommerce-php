@@ -1,0 +1,99 @@
+/*
+Theme Name:     Sumi
+Theme URI:      http://sumi.famithemes.com/
+Author:         Fami Themes
+Text Domain:    sumi
+Author URI:     http://famithemes.com/
+Description:    Sumi Shop is a simple but modern responsive WordPress theme that oozes high-street sophistication. Its sharp lines and flat design style has been designed to be pixel perfect. Simply load your photography and you can have an online shop to matches the likes of Prada, Gucci and Yves St Laurent.
+Version:        1.0.3
+License:        GNU General Public License v1 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Tags:           two-columns, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.widget_search .search-form .search-field{
+    width: 100%;
+    padding-right: 44px;
+    padding-top: 3px;
+}
+.widget_search .search-form .search-submit{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.page-main-content {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.comments-area .pingback ~ .comment:not(:first-child){
+    padding-top: 0;
+}
+.single-meta-post .category,
+.info-meta-left .category,
+.post-meta .comment,
+.post-meta .author{
+    font-size: 14px;
+}
+.comments-area .comment:last-child{
+    border-bottom:none;
+}
+.commentlist ~ .comment-respond,
+.commentlist .comment-respond{
+    border-top: 1px solid #e8edf2;
+    padding-top: 40px;
+}
+.no-toolkit .contain-left .entry-summary{
+    margin-top: 40px;
+}
+.no-results .search-form{
+    position: relative;
+    border: 2px solid #e8edf2;
+}
+.no-results .search-form input{
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    border: none;
+    color: #72797e;
+    padding-top: 3px;
+}
+.no-results .search-form .search-submit {
+    padding: 0;
+    width: 62px;
+    height: 62px;
+    line-height: 62px;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    font-size: 21px;
+    background-color: #e52e06;
+}
+.no-results .search-form .search-submit:hover {
+    opacity: 0.5;
+}
+.widget_categories form{
+    margin: 0;
+}
+.widget_categories form select{
+    border: none;
+    padding-top: 3px;
+}
+.widget_text form{
+    margin: 0;
+}
+.widget_text select{
+    border: none;
+    border-top: 2px solid #e4e9ef;
+    padding-top: 2px;
+}
+.categories-product-woo .product-grid:first-child{
+    margin-bottom: 0!important;
+}    
+@media (max-width: 767px) {
+    .post-title{
+        line-height: 30px;
+        padding-bottom: 17px;
+    }
+}
